@@ -1,0 +1,12 @@
+{"level":"info","message":"{\"method\":\"POST\",\"url\":\"/tasks\",\"status\":\"201\",\"responseTime\":\"86.793\"}","timestamp":"2026-02-15T07:33:44.316Z"}
+{"level":"info","message":"POST /api/users/register 201 172.507 ms","timestamp":"2026-02-15T11:45:09.897Z"}
+{"level":"info","message":"POST /api/users/register 201 63.568 ms","timestamp":"2026-02-15T11:45:54.330Z"}
+{"level":"info","message":"POST /api/accounts/create 201 82.978 ms","timestamp":"2026-02-15T11:47:31.423Z"}
+{"level":"info","message":"POST /api/accounts/create 201 161.957 ms","timestamp":"2026-02-15T11:50:32.911Z"}
+{"level":"info","message":"POST /api/transactions/transfer 400 130.579 ms","timestamp":"2026-02-15T11:52:00.398Z"}
+{"level":"error","message":"Expected ',' or '}' after property value in JSON at position 25 (line 2 column 23)","timestamp":"2026-02-15T11:52:24.153Z"}
+{"level":"error","message":"Expected ',' or '}' after property value in JSON at position 25 (line 2 column 23)","timestamp":"2026-02-15T11:54:53.243Z"}
+{"level":"info","message":"POST /api/transactions/transfer 400 88.399 ms","timestamp":"2026-02-15T11:56:15.865Z"}
+{"level":"info","message":"POST /api/transactions/transfer 200 515.786 ms","timestamp":"2026-02-15T11:58:24.296Z"}
+{"level":"info","message":"POST /api/transactions/transfer 400 177.263 ms","timestamp":"2026-02-15T12:00:17.560Z"}
+{"level":"info","message":"POST /api/transactions/transfer 200 297.926 ms","timestamp":"2026-02-15T12:00:27.984Z"}

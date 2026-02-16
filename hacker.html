@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>My Task List</h1>
+    <div id="tasks"></div>
+
+    <script>
+        // Tumhari API se data manga raha hoon
+        fetch('http://localhost:5000/tasks')
+            .then(res => res.json())
+            .then(data => {
+                const list = document.getElementById('tasks');
+                data.data.forEach(task => {
+                    // ⚠️ DANGER: Ye line bina check kiye HTML daal rahi hai
+                    // React mein ye 'dangerouslySetInnerHTML' hota hai
+                    const item = document.createElement('div');
+                    item.innerHTML = `<h3>${task.title}</h3><p>${task.description}</p>`;
+                    list.appendChild(item);
+                });
+            });
+    </script>
+</body>
+</html>
